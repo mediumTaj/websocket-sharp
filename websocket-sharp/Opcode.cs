@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp
+namespace UnitySDK.WebSocketSharp
 {
   /// <summary>
   /// Indicates the WebSocket frame type.

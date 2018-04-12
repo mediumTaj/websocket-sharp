@@ -41,7 +41,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   internal class ResponseStream : Stream
   {

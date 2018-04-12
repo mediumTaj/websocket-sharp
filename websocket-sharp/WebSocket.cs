@@ -50,10 +50,10 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
-using WebSocketSharp.Net;
-using WebSocketSharp.Net.WebSockets;
+using UnitySDK.WebSocketSharp.Net;
+using UnitySDK.WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp
+namespace UnitySDK.WebSocketSharp
 {
   /// <summary>
   /// Implements the WebSocket interface.

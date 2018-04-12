@@ -43,10 +43,10 @@ using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
-using WebSocketSharp.Net;
-using WebSocketSharp.Net.WebSockets;
+using UnitySDK.WebSocketSharp.Net;
+using UnitySDK.WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp.Server
+namespace UnitySDK.WebSocketSharp.Server
 {
   /// <summary>
   /// Provides a WebSocket protocol server.
@@ -373,7 +373,7 @@ namespace WebSocketSharp.Server
     /// </remarks>
     /// <value>
     ///   <para>
-    ///   One of the <see cref="WebSocketSharp.Net.AuthenticationSchemes"/>
+    ///   One of the <see cref="UnitySDK.WebSocketSharp.Net.AuthenticationSchemes"/>
     ///   enum values.
     ///   </para>
     ///   <para>
@@ -381,7 +381,7 @@ namespace WebSocketSharp.Server
     ///   </para>
     ///   <para>
     ///   The default value is
-    ///   <see cref="WebSocketSharp.Net.AuthenticationSchemes.Anonymous"/>.
+    ///   <see cref="UnitySDK.WebSocketSharp.Net.AuthenticationSchemes.Anonymous"/>.
     ///   </para>
     /// </value>
     public AuthenticationSchemes AuthenticationSchemes {

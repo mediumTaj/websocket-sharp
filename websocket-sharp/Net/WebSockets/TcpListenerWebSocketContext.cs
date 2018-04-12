@@ -42,7 +42,7 @@ using System.Net.Sockets;
 using System.Security.Principal;
 using System.Text;
 
-namespace WebSocketSharp.Net.WebSockets
+namespace UnitySDK.WebSocketSharp.Net.WebSockets
 {
   /// <summary>
   /// Provides the access to the information in a WebSocket handshake request to
@@ -128,7 +128,7 @@ namespace WebSocketSharp.Net.WebSockets
     /// Gets the HTTP cookies included in the request.
     /// </summary>
     /// <value>
-    /// A <see cref="WebSocketSharp.Net.CookieCollection"/> that contains the cookies.
+    /// A <see cref="UnitySDK.WebSocketSharp.Net.CookieCollection"/> that contains the cookies.
     /// </value>
     public override CookieCollection CookieCollection {
       get {
@@ -374,7 +374,7 @@ namespace WebSocketSharp.Net.WebSockets
     /// the client and server.
     /// </summary>
     /// <value>
-    /// A <see cref="WebSocketSharp.WebSocket"/>.
+    /// A <see cref="UnitySDK.WebSocketSharp.WebSocket"/>.
     /// </value>
     public override WebSocket WebSocket {
       get {

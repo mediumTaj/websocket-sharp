@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp.Server
+namespace UnitySDK.WebSocketSharp.Server
 {
   internal enum ServerState
   {

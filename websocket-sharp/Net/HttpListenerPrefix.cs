@@ -41,7 +41,7 @@
 using System;
 using System.Net;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   internal sealed class HttpListenerPrefix
   {

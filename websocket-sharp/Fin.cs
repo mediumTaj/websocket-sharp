@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp
+namespace UnitySDK.WebSocketSharp
 {
   /// <summary>
   /// Indicates whether a WebSocket frame is the final frame of a message.

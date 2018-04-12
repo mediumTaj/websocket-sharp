@@ -39,7 +39,7 @@
 
 using System;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   internal class ReadBufferState
   {

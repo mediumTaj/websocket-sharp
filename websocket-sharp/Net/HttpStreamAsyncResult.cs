@@ -40,7 +40,7 @@
 using System;
 using System.Threading;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   internal class HttpStreamAsyncResult : IAsyncResult
   {

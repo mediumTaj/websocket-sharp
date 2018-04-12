@@ -28,7 +28,7 @@
 
 using System;
 
-namespace WebSocketSharp
+namespace UnitySDK.WebSocketSharp
 {
   /// <summary>
   /// Specifies the logging level.
