@@ -326,9 +326,13 @@ namespace UnitySDK.WebSocketSharp
       }
     }
 
-    #endregion
+        #endregion
 
     #region Public Properties
+    /// <summary>
+    /// Custom request headers.
+    /// </summary>
+    public IEnumerable<KeyValuePair<string, string>> CustomHeaders { get; set; }
 
     /// <summary>
     /// Gets or sets the compression method used to compress a message.
@@ -1346,6 +1350,14 @@ namespace UnitySDK.WebSocketSharp
 
       if (_cookies.Count > 0)
         ret.SetCookies (_cookies);
+
+      if (CustomHeaders != null)
+      {
+        foreach (var header in CustomHeaders)
+        {
+          headers[header.Key] = header.Value;
+        }
+      }
 
       return ret;
     }
