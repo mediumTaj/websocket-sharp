@@ -330,7 +330,7 @@ namespace UnitySDK.WebSocketSharp
 
     #region Public Properties
     /// <summary>
-    /// Custom request headers.
+    /// Gets or sets the Custom request headers.
     /// </summary>
     public IEnumerable<KeyValuePair<string, string>> CustomHeaders { get; set; }
 
