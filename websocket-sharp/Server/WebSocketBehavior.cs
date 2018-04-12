@@ -28,10 +28,10 @@
 
 using System;
 using System.IO;
-using WebSocketSharp.Net;
-using WebSocketSharp.Net.WebSockets;
+using UnitySDK.WebSocketSharp.Net;
+using UnitySDK.WebSocketSharp.Net.WebSockets;
 
-namespace WebSocketSharp.Server
+namespace UnitySDK.WebSocketSharp.Server
 {
   /// <summary>
   /// Exposes the methods and properties used to define the behavior of a WebSocket service

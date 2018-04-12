@@ -38,7 +38,7 @@
 
 using System;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   /// <summary>
   /// Provides the HTTP version numbers.

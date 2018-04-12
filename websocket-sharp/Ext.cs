@@ -53,11 +53,11 @@ using System.IO.Compression;
 using System.Net.Sockets;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using WebSocketSharp.Net;
-using WebSocketSharp.Net.WebSockets;
-using WebSocketSharp.Server;
+using UnitySDK.WebSocketSharp.Net;
+using UnitySDK.WebSocketSharp.Net.WebSockets;
+using UnitySDK.WebSocketSharp.Server;
 
-namespace WebSocketSharp
+namespace UnitySDK.WebSocketSharp
 {
   /// <summary>
   /// Provides a set of static methods for websocket-sharp.

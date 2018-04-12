@@ -40,7 +40,7 @@
 using System;
 using System.Security.Principal;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   /// <summary>
   /// Holds the username and password from an HTTP Basic authentication attempt.

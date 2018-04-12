@@ -54,7 +54,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
-namespace WebSocketSharp.Net
+namespace UnitySDK.WebSocketSharp.Net
 {
   internal sealed class HttpConnection
   {

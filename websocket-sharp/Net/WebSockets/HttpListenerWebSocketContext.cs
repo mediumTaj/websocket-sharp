@@ -32,7 +32,7 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Security.Principal;
 
-namespace WebSocketSharp.Net.WebSockets
+namespace UnitySDK.WebSocketSharp.Net.WebSockets
 {
   /// <summary>
   /// Provides the access to the information in a WebSocket handshake request to
@@ -82,7 +82,7 @@ namespace WebSocketSharp.Net.WebSockets
     /// </summary>
     /// <value>
     ///   <para>
-    ///   A <see cref="WebSocketSharp.Net.CookieCollection"/> that contains
+    ///   A <see cref="UnitySDK.WebSocketSharp.Net.CookieCollection"/> that contains
     ///   the cookies.
     ///   </para>
     ///   <para>
@@ -351,7 +351,7 @@ namespace WebSocketSharp.Net.WebSockets
     /// the client and server.
     /// </summary>
     /// <value>
-    /// A <see cref="WebSocketSharp.WebSocket"/>.
+    /// A <see cref="UnitySDK.WebSocketSharp.WebSocket"/>.
     /// </value>
     public override WebSocket WebSocket {
       get {
