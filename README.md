@@ -1,5 +1,7 @@
 ![Logo](websocket-sharp_logo.png)
 
+WebSocket-Sharp forked from [sta/websocket-sharp](https://github.com/sta/websocket-sharp) for use with the Watson Unity SDK. Support for custom request and response headers for [GDPR](https://www.eugdpr.org/) compliance and changing namespace to `UnitySDK.WebSocketSharp` to avoid collisions with other plugins.
+
 ## Welcome to websocket-sharp! ##
 
 websocket-sharp supports:
